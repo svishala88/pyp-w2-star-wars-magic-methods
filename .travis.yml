@@ -15,5 +15,5 @@ install:
   - pip install -r dev-requirements.txt
 
 script:
-  - "PYTHONPATH=. py.test --cov=star_wars_magic_methods tests"
+  - "PYTHONPATH=. py.test"
   
